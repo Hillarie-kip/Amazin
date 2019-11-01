@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimary"
+    android:layout_height="match_parent"
+    tools:context=".user.LoginActivity">
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_220sdp"
+        android:background="@color/colorPrimary" />
+
+    <RelativeLayout
+
+        android:id="@+id/rl_two_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:layout_centerHorizontal="true"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="@dimen/_200sdp"
+            android:textAlignment="center"
+            android:src="@mipmap/ic_launcher_round" />
+
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cv_one_login"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_250sdp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/_200sdp"
+                    app:cardBackgroundColor="@color/colorPrimaryDark"
+                    app:cardCornerRadius="@dimen/_10sdp"
+                    app:cardElevation="@dimen/_10sdp"
+                    app:cardPreventCornerOverlap="false"
+                    app:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="25dp"
+                            android:paddingRight="25dp"
+                            android:layout_marginTop="@dimen/_50sdp"
+                            android:textColorHint="@color/white">
+
+                            <EditText
+
+                                android:id="@+id/et_phonenumber"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:backgroundTint="@color/colorAccent"
+                                android:drawableRight="@android:drawable/ic_menu_call"
+                                android:hint="Phone Number"
+                                android:inputType="phone"
+                                android:textColorHint="@color/colorAccent"
+                                android:textColor="@color/white"
+                                android:textSize="16sp" />
+
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:textColorHint="@color/white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:passwordToggleEnabled="true"
+
+                            android:layout_marginTop="45dp"
+                            android:paddingLeft="25dp"
+                            android:paddingRight="25dp">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/et_password"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:backgroundTint="@color/colorAccent"
+                                android:hint="Password"
+                                android:inputType="textPassword"
+                                android:textColor="@color/white"
+                                android:textSize="16sp" />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+            </RelativeLayout>
+
+            <Button
+
+
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_below="@id/cv_one_login"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:background="@drawable/button_login"
+                android:text="Log In"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:id="@+id/btnLogin"
+                android:layout_marginTop="-35dp"
+                android:elevation="15dp" />
+
+            <TextView
+
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="New Account?? Request Registration"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:id="@+id/tv_Requestregistration" />
+            <TextView
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Forgot Password!"
+                android:textStyle="bold"
+                android:layout_marginBottom="@dimen/_20sdp"
+                android:textColor="@color/white"
+                android:id="@+id/forgotpassword" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

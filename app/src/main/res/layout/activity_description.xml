@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:layout_height="match_parent"
+    tools:context=".user.LoginActivity">
+
+
+
+
+    <ScrollView
+        android:background="@drawable/bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+
+                    android:text="Which description/s do you relate to the most?"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/_15sdp"
+                    android:fontFamily="@font/bree_serif"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textColor="@color/colorAccent"
+                    />
+                <androidx.appcompat.widget.AppCompatCheckBox
+                    android:textSize="@dimen/_14sdp"
+                   android:id="@+id/cb_one"
+                    android:layout_marginTop="@dimen/_55sdp"
+                    android:fontFamily="@font/bree_serif"
+                    android:textColor="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" I like to be casual and down to earth, I love comfort and easy to care for clothes."/>
+                <androidx.appcompat.widget.AppCompatCheckBox
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:textSize="@dimen/_14sdp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/bree_serif"
+                    android:layout_width="match_parent"
+                    android:text="I am organised and practical and prefer to fill my wardrobe with versatile investment pieces"
+                    android:layout_height="wrap_content"/>
+                <androidx.appcompat.widget.AppCompatCheckBox
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:textSize="@dimen/_14sdp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/bree_serif"
+                    android:layout_width="match_parent"
+                    android:text="I am spirited and self expressed and originality is key."
+                    android:layout_height="wrap_content"/>
+                <androidx.appcompat.widget.AppCompatCheckBox
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:textSize="@dimen/_14sdp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/bree_serif"
+                    android:layout_width="match_parent"
+                    android:text="I am bold and like to stand out in a crowd and wear striking clothes that make a statement."
+                    android:layout_height="wrap_content"/>
+                <androidx.appcompat.widget.AppCompatCheckBox
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:textSize="@dimen/_14sdp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/bree_serif"
+                    android:layout_width="match_parent"
+                    android:text="I am sensitive, gentle and supportive and love feminine details such as lace, gathers and frills."
+                    android:layout_height="wrap_content"/>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btn_measurement"
+        android:background="@drawable/button_login"
+        android:layout_width="match_parent"
+        android:text="NEXT >>"
+        android:textColor="@color/white"
+        android:fontFamily="@font/bree_serif"
+        android:textSize="@dimen/_17sdp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        />
+
+</RelativeLayout>

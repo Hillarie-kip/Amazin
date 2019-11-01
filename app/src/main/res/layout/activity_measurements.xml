@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:layout_height="match_parent"
+    tools:context=".user.LoginActivity">
+
+
+
+
+    <ScrollView
+        android:layout_marginTop="@dimen/_27sdp"
+        android:background="@drawable/bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+               <TextView
+                   android:textColor="@color/white"
+                   android:layout_width="wrap_content"
+                   android:text="Shirt Size :  "
+                   android:textSize="@dimen/_15sdp"
+                   android:fontFamily="@font/bree_serif"
+                   android:textStyle="bold"
+                   android:layout_gravity="center"
+                   android:layout_height="wrap_content" />
+                <Button
+                    android:textSize="@dimen/_14sdp"
+                    android:fontFamily="@font/bree_serif"
+                    android:layout_gravity="start"
+                    android:layout_width="@dimen/_35sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:background="@drawable/button_check"
+                    android:text="S"/>
+                <Button
+                    android:textSize="@dimen/_14sdp"
+                    android:fontFamily="@font/bree_serif"
+                    android:layout_gravity="start"
+                    android:layout_width="@dimen/_35sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:background="@drawable/button_check"
+                    android:text="M"/>
+                <Button
+                    android:textSize="@dimen/_14sdp"
+                    android:fontFamily="@font/bree_serif"
+                    android:layout_gravity="start"
+                    android:layout_width="@dimen/_35sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:background="@drawable/button_check"
+                    android:text="L"/>
+                <Button
+                    android:textSize="@dimen/_14sdp"
+                    android:fontFamily="@font/bree_serif"
+                    android:layout_gravity="start"
+                    android:layout_width="@dimen/_35sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:background="@drawable/button_check"
+                    android:text="XL"/>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="@color/white"
+
+                    android:layout_width="wrap_content"
+                    android:text="Neck Size :   "
+                    android:textSize="@dimen/_15sdp"
+                    android:fontFamily="@font/bree_serif"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content" />
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:textSize="@dimen/_14sdp"
+                    android:fontFamily="@font/bree_serif"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_width="@dimen/_105sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:background="@drawable/button_check"
+                    android:text="1"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="@color/white"
+
+                    android:layout_width="wrap_content"
+                    android:text="Arm Length"
+                    android:textSize="@dimen/_15sdp"
+                    android:fontFamily="@font/bree_serif"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content" />
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:textSize="@dimen/_14sdp"
+                    android:fontFamily="@font/bree_serif"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_width="@dimen/_105sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:background="@drawable/button_check"
+                    android:text="1"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="@dimen/_15sdp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="@color/white"
+
+                    android:layout_width="wrap_content"
+                    android:text="Pant Size :    "
+                    android:textSize="@dimen/_15sdp"
+                    android:fontFamily="@font/bree_serif"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:textSize="@dimen/_14sdp"
+                    android:fontFamily="@font/bree_serif"
+                    android:layout_gravity="start"
+                    android:layout_width="@dimen/_35sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:background="@drawable/button_check"
+                    android:text="S"/>
+                <Button
+                    android:textSize="@dimen/_14sdp"
+                    android:fontFamily="@font/bree_serif"
+                    android:layout_gravity="start"
+                    android:layout_width="@dimen/_35sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:background="@drawable/button_check"
+                    android:text="M"/>
+                <Button
+                    android:textSize="@dimen/_14sdp"
+                    android:fontFamily="@font/bree_serif"
+                    android:layout_gravity="start"
+                    android:layout_width="@dimen/_35sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:background="@drawable/button_check"
+                    android:text="L"/>
+                <Button
+                    android:textSize="@dimen/_14sdp"
+                    android:fontFamily="@font/bree_serif"
+                    android:layout_gravity="start"
+                    android:layout_width="@dimen/_35sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:background="@drawable/button_check"
+                    android:text="XL"/>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="@color/white"
+
+                    android:layout_width="wrap_content"
+                    android:text="waist size :   "
+                    android:textSize="@dimen/_15sdp"
+                    android:fontFamily="@font/bree_serif"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content" />
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:textSize="@dimen/_14sdp"
+                    android:fontFamily="@font/bree_serif"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_width="@dimen/_105sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:background="@drawable/button_check"
+                    android:text="1"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="@color/white"
+
+                    android:layout_width="wrap_content"
+                    android:text="Insim :            "
+                    android:textSize="@dimen/_15sdp"
+                    android:fontFamily="@font/bree_serif"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content" />
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:textSize="@dimen/_14sdp"
+                    android:fontFamily="@font/bree_serif"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_width="@dimen/_105sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:background="@drawable/button_check"
+                    android:text="1"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="@dimen/_15sdp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="@color/white"
+
+                    android:layout_width="wrap_content"
+                    android:text="Dress Size  :  "
+                    android:textSize="@dimen/_15sdp"
+                    android:fontFamily="@font/bree_serif"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:textSize="@dimen/_14sdp"
+                    android:fontFamily="@font/bree_serif"
+                    android:layout_gravity="start"
+                    android:layout_width="@dimen/_35sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:background="@drawable/button_check"
+                    android:text="S"/>
+                <Button
+                    android:textSize="@dimen/_14sdp"
+                    android:fontFamily="@font/bree_serif"
+                    android:layout_gravity="start"
+                    android:layout_width="@dimen/_35sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:background="@drawable/button_check"
+                    android:text="M"/>
+                <Button
+                    android:textSize="@dimen/_14sdp"
+                    android:fontFamily="@font/bree_serif"
+                    android:layout_gravity="start"
+                    android:layout_width="@dimen/_35sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:background="@drawable/button_check"
+                    android:text="L"/>
+                <Button
+                    android:textSize="@dimen/_14sdp"
+                    android:fontFamily="@font/bree_serif"
+                    android:layout_gravity="start"
+                    android:layout_width="@dimen/_35sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:background="@drawable/button_check"
+                    android:text="XL"/>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="@color/white"
+
+                    android:layout_width="wrap_content"
+                    android:text="waist size :   "
+                    android:textSize="@dimen/_15sdp"
+                    android:fontFamily="@font/bree_serif"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content" />
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:textSize="@dimen/_14sdp"
+                    android:fontFamily="@font/bree_serif"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_width="@dimen/_105sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:background="@drawable/button_check"
+                    android:text="1"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="@color/white"
+
+                    android:layout_width="wrap_content"
+                    android:text="Insim          :   "
+                    android:textSize="@dimen/_15sdp"
+                    android:fontFamily="@font/bree_serif"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content" />
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:textSize="@dimen/_14sdp"
+                    android:fontFamily="@font/bree_serif"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_width="@dimen/_105sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:background="@drawable/button_check"
+                    android:text="1"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="@color/white"
+
+                    android:layout_width="wrap_content"
+                    android:text="Shoe Size  :   "
+                    android:textSize="@dimen/_15sdp"
+                    android:fontFamily="@font/bree_serif"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content" />
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:textSize="@dimen/_14sdp"
+                    android:fontFamily="@font/bree_serif"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_width="@dimen/_105sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:background="@drawable/button_check"
+                    android:text="1"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </ScrollView>
+    <TextView
+        android:textSize="@dimen/_17sdp"
+        android:gravity="center"
+        android:text="Choose Clothe Size"
+        android:fontFamily="@font/bree_serif"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:textSize="@dimen/_17sdp"
+        android:fontFamily="@font/bree_serif"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnDescription"
+        android:textColor="@color/white"
+        android:text="Next >>>"
+        android:background="@drawable/button_login"/>
+
+</RelativeLayout>

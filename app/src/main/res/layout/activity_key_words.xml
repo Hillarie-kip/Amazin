@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+   android:background="@color/colorAccent"
+    android:layout_height="match_parent"
+    tools:context=".user.LoginActivity">
+
+
+
+
+    <ScrollView
+        android:layout_marginTop="@dimen/_20sdp"
+        android:background="@drawable/bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/btn_casual"
+                    android:textSize="@dimen/_14sdp"
+                    android:fontFamily="@font/bree_serif"
+                    android:layout_gravity="start"
+                    android:layout_width="@dimen/_135sdp"
+                    android:layout_height="@dimen/_50sdp"
+                    android:background="@drawable/button_keyword"
+                    android:text="Casual"/>
+                <Button
+                    android:textSize="@dimen/_14sdp"
+
+                    android:fontFamily="@font/bree_serif"
+                    android:layout_gravity="end"
+                    android:layout_width="@dimen/_135sdp"
+                    android:layout_height="@dimen/_50sdp"
+                    android:background="@drawable/button_keyword"
+                    android:text="Comfortable"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="@dimen/_15sdp"
+                android:weightSum="2"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                       <Button
+                           android:textSize="@dimen/_14sdp"
+
+                           android:layout_marginLeft="@dimen/_20sdp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/bree_serif"
+                    android:layout_gravity="end"
+                    android:layout_width="@dimen/_135sdp"
+                           android:layout_height="@dimen/_50sdp"
+
+                    android:background="@drawable/button_keyword"
+                    android:text="Simple"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="@dimen/_15sdp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/btn_profession"
+                    android:textSize="@dimen/_14sdp"
+
+                    android:fontFamily="@font/bree_serif"
+                    android:layout_gravity="start"
+                    android:layout_width="@dimen/_185sdp"
+                    android:layout_height="@dimen/_50sdp"
+                    android:background="@drawable/button_keyword"
+                    android:text="Professional"/>
+                <Button
+                    android:textSize="@dimen/_14sdp"
+
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:fontFamily="@font/bree_serif"
+                    android:layout_gravity="end"
+                    android:layout_width="@dimen/_235sdp"
+                    android:layout_height="@dimen/_50sdp"
+                    android:background="@drawable/button_keyword"
+                    android:text="Refined"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="@dimen/_15sdp"
+                android:weightSum="2"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:textSize="@dimen/_14sdp"
+
+                    android:layout_marginRight="@dimen/_20sdp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/bree_serif"
+                    android:layout_gravity="start"
+                    android:layout_width="@dimen/_155sdp"
+                    android:layout_height="@dimen/_50sdp"
+                    android:background="@drawable/button_keyword"
+                    android:text="Sophisticated"/>
+                <Button
+                    android:textSize="@dimen/_14sdp"
+
+                    android:layout_marginLeft="@dimen/_20sdp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/bree_serif"
+                    android:layout_gravity="end"
+                    android:layout_width="@dimen/_135sdp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/button_keyword"
+                    android:text="Eclectic"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="@dimen/_20sdp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:textSize="@dimen/_14sdp"
+
+                    android:fontFamily="@font/bree_serif"
+                    android:layout_gravity="start"
+                    android:layout_width="@dimen/_235sdp"
+                    android:layout_height="@dimen/_50sdp"
+                    android:background="@drawable/button_keyword"
+                    android:text="Unconventional"/>
+                <Button
+                    android:textSize="@dimen/_14sdp"
+
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:fontFamily="@font/bree_serif"
+                    android:layout_gravity="end"
+                    android:layout_width="@dimen/_135sdp"
+                    android:layout_height="@dimen/_50sdp"
+
+                    android:background="@drawable/button_keyword"
+                    android:text="Unique"/>
+
+                <Button
+                    android:textSize="@dimen/_14sdp"
+
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:fontFamily="@font/bree_serif"
+                    android:layout_gravity="end"
+                    android:layout_width="@dimen/_235sdp"
+                    android:layout_height="@dimen/_50sdp"
+                    android:background="@drawable/button_keyword"
+                    android:text="Bold"/>
+            </LinearLayout>
+            <Button
+                android:textSize="@dimen/_14sdp"
+
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:fontFamily="@font/bree_serif"
+                android:layout_width="@dimen/_235sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:background="@drawable/button_keyword"
+                android:text="Striking"/>
+
+            <LinearLayout
+                android:layout_marginTop="@dimen/_20sdp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:textSize="@dimen/_14sdp"
+
+                    android:fontFamily="@font/bree_serif"
+                    android:layout_gravity="start"
+                    android:layout_width="@dimen/_135sdp"
+                    android:layout_height="@dimen/_50sdp"
+                    android:background="@drawable/button_keyword"
+                    android:text="Attention "/>
+                <Button
+                    android:textSize="@dimen/_14sdp"
+
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:fontFamily="@font/bree_serif"
+                    android:layout_gravity="end"
+                    android:layout_width="@dimen/_235sdp"
+                    android:layout_height="@dimen/_50sdp" android:background="@drawable/button_keyword"
+                    android:text="Attention "/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </ScrollView>
+    <TextView
+        android:fontFamily="@font/bree_serif"
+        android:textSize="@dimen/_15sdp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="Choose atleast one Style ..."/>
+    <Button
+        android:textSize="@dimen/_17sdp"
+        android:fontFamily="@font/bree_serif"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnDescription"
+        android:textColor="@color/white"
+        android:text="Next >>>"
+        android:background="@drawable/button_login"/>
+
+</RelativeLayout>
